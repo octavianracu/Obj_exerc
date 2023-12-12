@@ -1,0 +1,6 @@
+class Title:
+    def __init__(self, text):
+        self.text = text        
+        print (text.__str__())
+
+t1 = Title("-= PROGRAMMING IN PYTHON 3 =-")
